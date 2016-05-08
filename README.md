@@ -2,10 +2,18 @@
 
 This is a React Starter Kit to get you started working with React.
 
-It uses Babel and Webpack to bundle your app, and it's ES2015 ready.
+###It includes:
+
+- React
+- Redux
+- React-redux
+- React-router
+- Redux-saga
+
+It uses Babel to transpile the ES2015+ code into ES5, and Webpack to bundle your app. Also it uses ```webpack-dev-server``` to serve the app.
 
 ###Installation instructions:
 
-1. If you haven't already installed Webpack, run: ```npm install -g webpack```
-2. Install all required node modules with: ```npm install```
-3. And finally start ```webpack-dev-server``` with: ```npm start```.
+1. Install all required node modules with: ```npm install```
+2. Start the server with ```npm start```
+3. Go to http://localhost:8080
