@@ -16,4 +16,4 @@ It uses Babel to transpile the ES2015+ code into ES5, and Webpack to bundle your
 
 1. Install all required node modules with: ```npm install```
 2. Start the server with ```npm start```
-3. Go to http://localhost:8080
+3. Open up the browser and go to ```http://localhost:8080```
