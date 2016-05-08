@@ -8,4 +8,4 @@ It uses Babel and Webpack to bundle your app, and it's ES2015 ready.
 
 1. If you haven't already installed Webpack, run: ```npm install -g webpack```
 2. Install all required node modules with: ```npm install```
-3. And finally start Webpack with: ```webpack -w```. The ```-w``` argument tells Webpack to listen on file change and update the bundle.
+3. And finally start ```webpack-dev-server``` with: ```npm start```.

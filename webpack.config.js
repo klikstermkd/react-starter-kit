@@ -1,7 +1,7 @@
 module.exports = {
   entry: './app/index.js',
   output: {
-    filename: 'public/bundle.js'       
+    filename: './public/bundle.js'       
   },
   module: {
     loaders: [
@@ -14,5 +14,9 @@ module.exports = {
         }
       }
     ]
+  },
+  devServer: {
+    historyApiFallback: true,
+    contentBase: 'public'
   }
 };
